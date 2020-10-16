@@ -49,7 +49,7 @@ module.exports = appInfo => {
   // cors
   config.cors = {
     origin: 'http://localhost:3000', //只允许这个域进行访问接口
-    credentials: true,   // 开启认证
+    credentials: true,   // 开启认证, 允许Cookie跨域
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS' // 允许的请求方式
   }
 
